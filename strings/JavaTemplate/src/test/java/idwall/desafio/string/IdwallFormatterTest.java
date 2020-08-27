@@ -4,7 +4,6 @@ import org.junit.Test;
 
 import java.util.List;
 
-import static org.hamcrest.core.IsEqual.equalTo;
 import static org.junit.Assert.*;
 
 public class IdwallFormatterTest {
@@ -49,7 +48,7 @@ public class IdwallFormatterTest {
         List<List<String>> strFormat = sf.format(text);
 
         assertEquals(12, strFormat.get(0).size());
-        assertTrue(!strFormat.isEmpty());
+        assertFalse(strFormat.isEmpty());
 
         //sf.printOutput(strFormat);
     }
@@ -61,7 +60,7 @@ public class IdwallFormatterTest {
         List<List<String>> strFormat = sf.format(text);
 
         assertEquals(8, strFormat.get(0).size());
-        assertTrue(!strFormat.isEmpty());
+        assertFalse(strFormat.isEmpty());
     }
 
 }

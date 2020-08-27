@@ -19,13 +19,12 @@ public class IdwallFormatter extends StringFormat {
         if(text.isEmpty()){
             throw new UnsupportedOperationException("String vazia não pode ser formatada!");
         }
-
         /*
         *CAso o texto venha com outro tipo de separador o método não funcionará
          */
-        String strSplit[] = text.split(" ");
+        String[] strSplit = text.split(" ");
 
-        List<List<String>> textForm = new ArrayList<List<String>>();
+        List<List<String>> textForm = new ArrayList<>();
         List<String> strLine = new ArrayList<>();
         int leng = strSplit.length;
         int j = 0;
