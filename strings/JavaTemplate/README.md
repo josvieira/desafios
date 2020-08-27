@@ -27,6 +27,7 @@
 - Baixe a imagem docker do plugin com o comando: docker pull josienevieira/desafioid:latest
 
 - Rode a imagem docker pelo terminal do seu computador com o comando: docker run -it josienevieira/desafioid 
+Dessa forma o plugin executara com dados default.
 
 É possível passar parametros na execução da imagem, após digitar o comando para rodar a imagem basta colocar a string que deseja formatar, um valor inteiro e um boolean responsável por definir se o texto deverá ser justificado ou não, como no exemplo abaixo:
  
