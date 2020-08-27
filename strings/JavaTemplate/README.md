@@ -28,9 +28,11 @@
 
 - Rode a imagem docker pelo terminal do seu computador com o comando: docker run -it josienevieira/desafioid 
 
-É possível passar parametros na execução da imagem, após difgitar o comando para rodar a imagem basta colocar a string que deseja formatar, um valor inteiro e um boolean responsável por definir se o texto deverá ser justificado ou não, como no exemplo abaixo:
+É possível passar parametros na execução da imagem, após digitar o comando para rodar a imagem basta colocar a string que deseja formatar, um valor inteiro e um boolean responsável por definir se o texto deverá ser justificado ou não, como no exemplo abaixo:
  
  - docker run -it josienevieira/desafioid "Esse livro se encaixa no gênero Afrofuturismo. A primeira vez que ouvi esse termo" 40 false
+
+É possível rodar a imagem e permancer no terminal do docker, basta digite o seguinte comando docker run -ti --entrypoint /bin/sh josienevieira/desafioid
 
 Nesse [link](https://github.com/josvieira/desafios/blob/master/strings/JavaTemplate/texto_para_teste) tem um texto para usar a fim de textar o plugin.
 
