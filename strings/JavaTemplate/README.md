@@ -53,14 +53,15 @@ Nesse [link](https://github.com/josvieira/desafios/blob/master/strings/JavaTempl
 
 <h2>Dificuldades</h2>
 
-<p>Inicialmete precisei pensar na lógica que usaria para formatar a string, e também pesquisar o uso da tecnologia Docker que até então nunca havia utilizado</p>
+ - Inicialmete precisei pensar na lógica que usaria para formatar a string, e também pesquisar o uso da tecnologia Docker que até então nunca havia utilizado
+ - :heavy_check_mark:Ao executar uma vez o comando run, não permanecemos no terminal do docker, retornando para o terminal local, sendo necessário executar o comando run novamente passando parametros diferentes dos que estão por default no código;
 
 <h2>Melhorias</h2>
 
 - :warning: O plugin não está funcionando 100%, pois algumas linhas não alcançam o total de 40 caracteres;
 - :warning: o código pode ser melhorado visual e esteticamente falando, pois existem features novas do java que podem ser utilizadas ao invés de lançar mão dos loops tradicinais e condicionais if/else;
 - :warning: a cobertura de testes pode ser melhor desenvolvida, foram criados testes unitários para um dos métodos dos três que foram criados;
-- :heavy_check_mark: A imagem docker pode ser melhorada pois ao executar uma vez o comando run, não permanecemos no terminal do docker, retornando para o terminal local, sendo necessário executar o comando run novamente passando parametros diferentes dos que estão por default no código;
+- :warning: Ao executar o plugin no terminal do docker ele dá um erro se a string for muito grande, a maior string que conseguir passar, como parâmetro foi com 840 caracteres,que é o segundo texto [que se encontra no exemplo](https://github.com/josvieira/desafios/blob/master/strings/JavaTemplate/texto_para_teste).
 - :warning: Utilizar qualquer tamanho de linha e não o tamanho fizado em 40, batando passar mais um parametro para o método.
 
 <h2>Aprendizados</h2>
